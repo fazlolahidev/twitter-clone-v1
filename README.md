@@ -2,7 +2,7 @@
   <img src='https://s2.uupload.ir/files/twiitergif_0kp0.gif' width='400' />
 </p>
 
-# WhatsApp Clone
+# Twitter Clone
 Welcome to the Twitter clone app!. Now you can tweet your thoughts and scroll through an infinite timeline of tweets and read others.
 
 ## Demo
