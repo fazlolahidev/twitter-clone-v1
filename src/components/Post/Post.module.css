@@ -1,0 +1,49 @@
+.post {
+  display: flex;
+  gap: 10px;
+
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.post__body {
+  flex: 1;
+}
+
+.post__verfiedIcon {
+  margin-top: 4px;
+  color: var(--twitter-color);
+}
+
+.post__headerText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.post__headerTextUsername {
+  color: gray;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.post__headerTextContainerUsername {
+  display: flex;
+  align-items: center;
+}
+
+.post__headerDescription {
+  margin-top: 20px;
+}
+
+.post__footer {
+  margin-top: 30px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__footer > * {
+  cursor: pointer;
+}

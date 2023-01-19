@@ -1,0 +1,42 @@
+.sharePost {
+  margin-top: 10px;
+  border: .75px solid #c9c5c5;
+  padding: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sharePost__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sharePost__header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sharePost__username {
+  font-size: 10px;
+}
+
+.sharePost__body > p:nth-child(1) {
+  font-size: 14px;
+  color:  gray;
+}
+
+.sharePost__body > p:nth-child(3) {
+  margin-top: 5px;
+  font-size: 12px;
+  color:  gray;
+}
+
+.sharePost__bodyImg > img {
+  border-radius: 10px;
+  margin-block: 5px;
+}
